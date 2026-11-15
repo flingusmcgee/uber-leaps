@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://c16jk3opvla0x"]
+
+[ext_resource type="Script" uid="uid://w26uvflss8dw" path="res://node_2d.gd" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://ctk27qkeyehvm" path="res://assets/title.png" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=869456015]
+script = ExtResource("1_0e48y")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=605988952]
+position = Vector2(593.00006, 324.00003)
+scale = Vector2(0.2532068, 0.25320676)
+texture = ExtResource("2_epypp")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=866406077]
+z_index = -9
+offset_right = 1165.0
+offset_bottom = 654.0
+color = Color(0.21568628, 0.85882354, 0.5019608, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect" unique_id=753520177]
+layout_mode = 0
+offset_left = 388.0
+offset_top = 522.0
+offset_right = 798.0
+offset_bottom = 697.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.5568628)
+theme_override_font_sizes/normal_font_size = 23
+bbcode_enabled = true
+text = "[center]
+Get duct tape to heal you!
+Avoid hedgehogs, cacti, and urchins.
+[/center]"
